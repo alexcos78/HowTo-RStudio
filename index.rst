@@ -36,7 +36,7 @@ Connecting to the INFN-CLOUD dashboard (https://paas.cloud.infn.it/), the user c
 Fig 1: INFN-CLOUD welcome dashboard
 
 .. image:: images/2.PNG
-   :width: 100
+   :width: 10
 Fig2: INFN-CLOUD IAM login
 
 
