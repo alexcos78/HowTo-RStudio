@@ -1,11 +1,28 @@
-A ReStructuredText Primer
+How To: Deploy RStudio application
 =========================
 
-:Author: Richard Jones
-:Version: $Revision: 5801 $
+:Author: Alessandro Costantini
+:Version: $Revision: 1 $
 :Copyright: This document has been placed in the public domain.
 
 .. contents::
+
+
+1. Prerequisites
+---------
+
+The user has to be registered in the IAM system for INFN-CLOUD https://iam.cloud.infn.it/login. Only registered users can login into the INFN-CLOUD dashboard https://paas.cloud.infn.it/login.
+
+The access to the INFN-CLOUD dashboard enable the user to  instantiate RStudio.
+
+
+2. Notes for the reader
+---------
+
+The current deployment does not support the GPU implementation. Only CPU implementation is avaialble.
+Selecting providers with GPU resources  (see Step 2 - Select and Configure the RStudio deployment) does not enable the use of GPU in the deployed RStudio application.
+
+
 
 
 The text below **contains** links that look like "(quickref__)".  These
