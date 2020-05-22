@@ -50,23 +50,40 @@ After selecting RStudio from the list of applications, the user is redirected to
 Here the user has to fill the required mandatory filed:
 
 * Deployment description
+
   * A brief description of the deployment
+  
 * Configuration TAB
+
   * Cpus
+  
     * Nuber of CPU to be used for the deployment
+    
   * Mem
+  
     * RAM memory to be used for the deployment
+    
   * rstudio_password
+  
     * Password to access the application (**by default “rstudio” is used as account name**)
+
 * Advanced TAB
+
   * Scheduling
+  
     * Automatic (Default)
+    
       * The system will choose the most suitable provider for the deployment
+      
     * Manual
+    
       * A provider can be selected from the list (see **Note1**)
+      
     * The following extra-settings can be set
     * Deployment creation timeout (minutes)
+    
       * The deployment will fail when the timeout is reached
+      
     * Do not delete the deployment in case of failure
     * Send a confirmation email when complete
 
