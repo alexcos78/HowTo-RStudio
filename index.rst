@@ -33,10 +33,47 @@ Connecting to the INFN-CLOUD dashboard (https://paas.cloud.infn.it/), the user c
 
 .. image:: images/1.PNG
    :width: 600
-Fig 1: INFN-CLOUD welcome dashboard
+   :alt: Fig 1: INFN-CLOUD welcome dashboard
+
+.. image:: images/2.PNG
+   :width: 600
+Fig2: INFN-CLOUD IAM login
 
 
 
+Step 2 - Select and Configure the RStudio deployment
+-----------------------------------------------------------------
+
+Once logged in, the user can select the RStudio application (see Fig.3) to access in the deployment windows and insert the required values.
+
+After selecting RStudio from the list of applications, the user is redirected to the deployment setting window (see Fig. 4 and Fig. 5).
+Here the user has to fill the required mandatory filed:
+
+    Deployment description
+        A brief description of the deployment
+    Configuration TAB
+        Cpus
+            Nuber of CPU to be used for the deployment
+        Mem
+            RAM memory to be used for the deployment
+        rstudio_password
+            Password to access the application (**by default “rstudio” is used as account name**)
+    Advanced TAB
+        Scheduling
+            Automatic (Default)
+                The system will choose the most suitable provider for the deployment
+            Manual
+                A provider can be selected from the list (see **Note1**)
+            The following extra-settings can be set
+            Deployment creation timeout (minutes)
+                The deployment will fail when the timeout is reached
+            Do not delete the deployment in case of failure
+            Send a confirmation email when complete
+
+
+
+
+**Note1**: Selecting providers with GPU resources does not enable the use of GPU in the deployed RStudio application. See section 2 "**Notes for the reader**".
 
 
 
