@@ -33,7 +33,7 @@ Connecting to the INFN-CLOUD dashboard (https://paas.cloud.infn.it/), the user c
 
 .. image:: images/1.PNG
    :width: 600
-
+Fig 1: INFN-CLOUD welcome dashboard
 
 
 
