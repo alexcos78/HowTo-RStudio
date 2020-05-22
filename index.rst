@@ -33,9 +33,6 @@ Connecting to the INFN-CLOUD dashboard (https://paas.cloud.infn.it/), the user c
 
 .. image:: images/1.PNG
    :height: 100
-   :width: 200
-   :scale: 50
-   :alt: alternate text
 Fig 1: INFN-CLOUD welcome dashboard
 
 .. image:: images/2.PNG
