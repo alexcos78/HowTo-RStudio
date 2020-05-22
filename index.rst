@@ -32,11 +32,11 @@ Step 1 - Connecting and autheniceting to the INFN-CLOUD dashboard
 Connecting to the INFN-CLOUD dashboard (https://paas.cloud.infn.it/), the user can authenticate with the credentials used for the IAM account (https://iam.cloud.infn.it/login) in order to access the dashboard.
 
 .. image:: images/1.PNG
-   :height: 100
+   :height: 400
 Fig 1: INFN-CLOUD welcome dashboard
 
 .. image:: images/2.PNG
-   :width: 100
+   :width: 400
 Fig2: INFN-CLOUD IAM login
 
 
