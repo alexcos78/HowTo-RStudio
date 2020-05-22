@@ -91,15 +91,15 @@ Here the user has to fill the required mandatory filed:
 
 
 .. image:: images/3.PNG
-   :width: 100
+   :width: 400
 Fig3: INFN-CLOUD Dashboard applications
 
 .. image:: images/4.PNG
-   :width: 100
+   :width: 400
 Fig4: Rstudio deployment settings – Configuration
 
 .. image:: images/5.PNG
-   :width: 100
+   :width: 400
 Fig5: Rstudio deployment settings - Advanced
 
 
@@ -114,7 +114,7 @@ Once successful deployment completion ("CREATE_COMPLETE" in Fig. 6), the user ca
 * to the **Details** button at the end of the row
     
 .. image:: images/6.PNG
-   :width: 100   
+   :width: 400   
 Fig6: User deployment list    
 
 
@@ -127,9 +127,9 @@ Following the link at the ENDPOINT, the user is redirected to the RStudio applic
 At this phase, the user can enjoy RStudio!
 
 .. image:: images/7.PNG
-   :width: 100   
+   :width: 400   
 Fig7: User deployment details
 
 .. image:: images/8.PNG
-   :width: 100   
+   :width: 400   
 Fig8: RStudio dashboard after successful login
